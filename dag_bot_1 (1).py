@@ -8,12 +8,12 @@ import pandahouse as ph
 
 connection = {
     'host': 'https://clickhouse.lab.karpov.courses',
-    'password': 'dpo_python_2020',
+    'password': 'dylknklhnl',
     'user': 'student',
     'database': 'simulator'
 }
 
-bot_token='8012634757:AAGeOUGcKWveh7qmAx3XF1IcpBzX9Vfq_Ls'
+bot_token='8012634757:AAGeOHbHVolniuUBmAx3XF1IcpBzX9Vfq_Ls'
 bot=telegram.Bot(token=bot_token)
 
 updates=bot.getUpdates()
